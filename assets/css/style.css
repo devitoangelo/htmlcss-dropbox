@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    min-width: 1450px;
+}
+
 /* header */
 #site_header {
     background-color: white;
@@ -274,7 +278,7 @@
 }
 
 
-hr {
+.m-l-10 {
 
     width: 50px;
     margin-left: 10px;
@@ -363,6 +367,7 @@ hr {
 .p-20 {
     padding: 20px;
 }
+
 /* end_enterprise */
 
 
@@ -466,7 +471,7 @@ hr {
 }
 
 .design_blok2 {
-    width: 33%;
+    width: 34%;
     background-color: #F5F5F5;
 }
 
@@ -521,6 +526,144 @@ hr {
 }
 
 /* end-colore-blocchi */
+ 
 
 
 
+/* Dropbox_azienda  */
+.bg_color {
+    background-color: #B4D0E7;
+}
+
+
+.content_container {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color:#B4D0E7; 
+ 
+
+}
+
+.p-gratuita {
+    margin-top: 15%;
+    width: 14rem;
+    height: 3rem;
+    background-color: white;
+    padding-right: 1px;
+    padding: 10px 0 0 20px;
+
+
+
+}
+
+.display_flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.title_content {
+    margin-top: 23%;
+    font-size: xxx-large;
+    color: #64082B;
+}
+
+
+
+.bgcolor{
+background-color: red;
+}
+
+
+.ciao{
+    margin: auto;
+    text-align: center;
+    height: 80%;
+}
+
+/*end_dropbox_azienda */
+
+
+/* container-faq */
+
+
+.container_faq{
+    width: 100%;
+    height: 500px;
+
+
+}
+
+.content_faq{
+    margin: auto;
+    width: 60%;
+    height: 100%;
+
+
+}
+
+
+
+.display{
+position: relative;
+top: 20px;
+}
+
+.right-20{
+    position: absolute;
+    right: 20rem;
+
+ 
+}
+
+.m-t-50{
+    margin-top: 50px;
+}
+
+/* end-container-faq */
+
+
+
+/* container-info */
+.contanier-info{
+    display: flex;
+    background-color: black;
+    height: 250px;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+#content-info1{
+    width: 10%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+#content-info{
+    width: 10%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+   
+}
+
+
+.prodotto{
+    color:white;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+    
+
+section{
+    padding: 4px;
+}
+/* end-container-info */
